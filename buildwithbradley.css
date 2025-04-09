@@ -1,0 +1,22 @@
+h1 {
+    color: red
+}
+
+h2 {
+    color: purple
+
+}
+
+
+body {
+    color: blue;
+}
+
+a {
+    text-align: center;
+    font-size: 20px;
+    background-color: black; 
+    color: green;
+    font-family: monospace;
+    text-decoration: none;
+}
