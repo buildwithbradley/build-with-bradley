@@ -1,9 +1,11 @@
+
 h1 {
     color: black; 
 }
 
-body {
+div {
     color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
@@ -11,12 +13,11 @@ a {
     font-size: 20px;
     background-color: grey; 
     color: green;
-    font-family: monospace;
     text-decoration: none;
 }
 
 img {
     width: 300px;
-    height: auto; 
+    height: 400px; 
 }
 
