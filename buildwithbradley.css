@@ -11,8 +11,8 @@ div {
 a {
     text-align: center;
     font-size: 20px;
-    background-color: grey; 
-    color: green;
+    background-color: green; 
+    color: grey;
     text-decoration: none;
 }
 
@@ -21,3 +21,6 @@ img {
     height: 400px; 
 }
 
+* {
+    outline: 2px solid red;
+}
