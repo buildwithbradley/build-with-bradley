@@ -1,26 +1,10 @@
-
-h1 {
-    color: black; 
-}
-
-div {
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-a {
-    text-align: center;
-    font-size: 20px;
-    background-color: green; 
-    color: grey;
-    text-decoration: none;
-}
-
-img {
-    width: 300px;
-    height: 400px; 
-}
-
 * {
-    outline: 2px solid red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    align-content: center;
 }
