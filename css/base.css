@@ -6,7 +6,7 @@
     list-style: none;
 }
 
-.page_title {
+.page-title {
     font-size: 30px;
 }
 
@@ -16,5 +16,4 @@
     width: 400px;
     height: auto; /* Maintains aspect ratio */ 
     margin-left: 50px;
-
 }
