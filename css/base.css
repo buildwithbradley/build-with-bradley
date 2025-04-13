@@ -9,3 +9,12 @@
 .page_title {
     font-size: 30px;
 }
+
+/*logo*/
+.logo {
+    display: flex;
+    width: 400px;
+    height: auto; /* Maintains aspect ratio */ 
+    margin-left: 50px;
+
+}

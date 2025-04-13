@@ -2,37 +2,46 @@
 header {
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.37);
     justify-content: space-between;
-
-}
-
-/*logo*/
-.logo {
-    display: flex;
-    width: 400px;
-    height: auto; /* Maintains aspect ratio */ 
-    margin-left: 50px;
-
+    background-color: rgb(158, 197, 113);
+    height: 150px;
 }
 
 /*navigation menu*/
 .nav_menu {
-    margin-right: 50px;
+    margin-right: px;
     padding: 1px;
     text-align: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    height: 100%;
 }
 
+.nav_menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 1px;
+    
+  }
+  
 .nav_menu li {
-    display: inline-flex;
-    margin: 15px;
+    display: flex;
+    height: 100%;
+    list-style: none;
 }
 
 .nav_menu a {
-    font-size: 35px;
-    padding: 5px;
-    background-color: blue;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
     color: white;
+    text-decoration: none;
+    font-size: 60px;
 }
-
