@@ -1,0 +1,38 @@
+/*header properties*/
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    justify-content: space-between;
+
+}
+
+/*logo*/
+.logo {
+    display: flex;
+    width: 400px;
+    height: auto; /* Maintains aspect ratio */ 
+    margin-left: 50px;
+
+}
+
+/*navigation menu*/
+.nav_menu {
+    margin-right: 50px;
+    padding: 1px;
+    text-align: center;
+}
+
+.nav_menu li {
+    display: inline-flex;
+    margin: 15px;
+}
+
+.nav_menu a {
+    font-size: 35px;
+    padding: 5px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+

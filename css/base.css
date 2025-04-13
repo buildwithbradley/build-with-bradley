@@ -1,10 +1,11 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.title {
+.page_title {
     font-size: 30px;
-    padding-bottom: 20px;
-    align-content: center;
 }
